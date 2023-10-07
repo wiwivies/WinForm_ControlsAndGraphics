@@ -244,7 +244,6 @@ namespace WinForm_ControlsAndGraphics
             doc.Save(fileName);
 
             DialogResult result = MessageBox.Show($"Чек сохранен в файл: {fileName}. Если хотите увидеть информацию, нажмите 'Да'", "Информация", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
-
             if (result == DialogResult.Yes)
             {
                 ShowReceiptInfo();
