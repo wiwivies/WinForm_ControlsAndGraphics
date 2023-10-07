@@ -189,7 +189,6 @@ namespace WinForm_ControlsAndGraphics
                 for (int i = 0; i < goods.Count; i++)
                 {
                     int count = goods[i].Amount;
-
                     // Масштабируем высоту столбца относительно общего количества товаров
                     int scaledHeight = (int)(h * ((double)count / totalAmount));
 

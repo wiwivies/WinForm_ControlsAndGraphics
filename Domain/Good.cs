@@ -24,7 +24,6 @@ namespace WinForm_ControlsAndGraphics.Domain
             Date = date;
             TotalPrice = amount * pricePerOne;
         }
-
         public override string ToString()
         {
             return $"{Name} : {Description}  |  {Amount} * {PricePerOne} = {TotalPrice}  |  {Date}";
